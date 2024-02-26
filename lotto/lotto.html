@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lotto</title>
+    <link rel="stylesheet" href="lotto.css" />
+  </head>
+  <body>
+    <div id="all">
+      <div>
+        <h3>Zagraj w Lotto!</h3>
+        <ol>
+          <li>Wypisz 6 liczb od 1 do 49, oddzielając je przecinkiem.</li>
+          <li>Liczby nie mogą się powtarzać.</li>
+          <li>Następnie kliknij przycisk "Dodaj los".</li>
+          <li>Możesz dodać maksymalnie 6 losów.</li>
+          <li>W celu sprawdzenia wygranej kliknij przycisk "Losowanie".</li>
+        </ol>
+        <textarea id="areaWithSelectedNumbers"></textarea>
+        <p style="margin-top: 2px">
+          <button class="button" id="buttonStart">Losowanie</button
+          ><span><button class="button" id="addTicket">Dodaj los</button></span>
+        </p>
+        <p id="result"></p>
+      </div>
+      <div>
+        <div id="otherTickets" style="margin-left: 30px"></div>
+      </div>
+    </div>
+    <script src="lottoLevelUp.js"></script>
+  </body>
+</html>

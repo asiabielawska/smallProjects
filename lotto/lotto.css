@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(199, 199, 199);
+}
+.button {
+    background-color: rgb(0, 174, 255);
+    border-radius: 8px;
+}
+#buttonStart {
+    margin-right: 5px;
+}
+#all {
+    display: flex;
+    align-items: center;
+}

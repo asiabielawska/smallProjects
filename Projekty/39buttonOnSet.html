@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="myButton"></p>
+    <script>
+        const gameButton = setTimeout(() => {
+            document.getElementById("myButton").innerHTML = "<button id=\"button\">Now!</button>"
+            const buttonToClicking = document.querySelector("#button")
+            const firstNumber = Date.now()
+            buttonToClicking.addEventListener("click", () => {
+                const secondNumber = Date.now()
+                alert(secondNumber-firstNumber)
+            })
+        }, Math.round(Math.random()*5000))
+       
+       
+    </script>
+</body>
+</html>

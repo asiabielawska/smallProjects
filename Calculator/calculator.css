@@ -1,0 +1,67 @@
+#result {
+    border: 2px solid black;
+    width: 400px;
+    height: 60px;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: x-large;
+    padding: 30px 5px;
+}
+.numbers1to9 {
+   background-color: rgb(192, 192, 192);
+   width: 400px;
+   font-size: xx-large;
+   box-sizing: border-box;
+}
+
+.numbers7to9, .numbers4to6, .numbers1to3 {
+   display: flex;
+   flex-direction: row;
+}
+
+.number {
+    border: 2px solid black;
+    height: 70px;
+    font-size: inherit;
+    flex: 1;
+    border-top: none;
+    background-color: inherit;
+}
+
+#two, #five, #eight {
+    border-left: none;
+    border-right: none;
+}
+
+#zero {
+    background-color: inherit;
+    border: 2px solid black;
+    height: 70px;
+    font-size: xx-large;
+    box-sizing: border-box;
+    width: 400px;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+}
+
+.operations {
+    border: 2px solid black;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    height: 70px;
+    font-size: xx-large;
+    box-sizing: border-box;
+    width: 400px;
+    display: flex;
+    background-color: rgb(255, 168, 91);
+}
+
+.operation {
+    flex: 1;
+    border: 2px solid black;
+    border-right: none;
+    font-size: inherit;
+    background-color: inherit;
+}

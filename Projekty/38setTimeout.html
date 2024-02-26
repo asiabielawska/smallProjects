@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="firstWord">Czekaj</p>
+    <p id="counting"></p>
+    <script>
+        console.log("1")
+        const countingToThree = setTimeout(() => {
+            document.getElementById("firstWord").innerHTML = "Koniec czekania"
+            console.log("2")
+        }, 3000)
+        console.log('3')
+
+        // let numbers = 1
+        const countingToInfinity = setInterval(() => {document.getElementById("counting").innerHTML = new Date()}, 1000)
+
+    </script>
+
+</body>
+</html>
